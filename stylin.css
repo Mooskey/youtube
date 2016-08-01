@@ -215,12 +215,54 @@ div#comments li div span.comment{
   margin-right: -1500px;
 }
 
-li div img{
-  margin-left: 70px;
+div img.prof{
   float: left;
-  width: 55px;
+  margin-left: 70px;
 }
 
-div.name {
-  margin-left: -50px;
+div span#prof{
+  float: left;
+  margin-left: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #1A7BB3;
+}
+
+
+div span#prof.laura{
+  margin-left: 15px
+}
+
+.timestamp{
+  float: left;
+  margin-left: 40px;
+  margin-top: 3px;
+  color: #87A2B3;
+  font-weight: normal;
+}
+
+span.comment {
+  text-align: left;
+  float: left;
+  margin-left: 133px;
+  color: #3C3C3C;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: -15px;
+}
+span.comrating{
+  float: left;
+  margin-left: 133px;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #80C146;
+}
+span.thumb  {
+  float: left;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+
+img.thumb{
+  width: 20px;
 }
